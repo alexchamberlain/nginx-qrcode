@@ -19,3 +19,7 @@ Installation
 2. Download the Nginx source, extract and change the current working directory
    to the Nginx tree.
 3. Run ```configure``` with ```--add-module=/path/to/source/nginx-qrcode```
+4. Run ```make``` and ```make install```. ```make install``` will probably need
+   root permissions.
+
+Refer to http://wiki.nginx.org/3rdPartyModules.
